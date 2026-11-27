@@ -1,5 +1,5 @@
 name: Ask a question or suggest an idea
-description: Anything about Glimreef that is not a fault.
+description: Anything about glimreef that is not a fault.
 labels: ["question"]
 body:
   - type: markdown

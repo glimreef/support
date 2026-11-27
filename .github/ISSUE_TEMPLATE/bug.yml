@@ -1,7 +1,7 @@
 # The game's About screen opens this form with the fields below filled in, naming them by their ids
 # (App/Menu/ProblemReport.swift in the game's project). Keep the file name and the ids as they are.
 name: Report a problem
-description: Something in Glimreef does not work as it should.
+description: Something in glimreef does not work as it should.
 labels: ["bug"]
 body:
   - type: markdown

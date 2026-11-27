@@ -1,6 +1,6 @@
-# Glimreef support
+# glimreef support
 
-Report a problem or ask a question about Glimreef, a game for iPhone and iPad, by
+Report a problem or ask a question about glimreef, a game for iPhone and iPad, by
 [opening an issue](https://github.com/glimreef/support/issues/new/choose).
 
 **Issues are public.** Do not write your name, email address or other personal
