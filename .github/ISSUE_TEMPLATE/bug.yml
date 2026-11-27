@@ -1,0 +1,44 @@
+# The game's About screen opens this form with the fields below filled in, naming them by their ids
+# (App/Menu/ProblemReport.swift in the game's project). Keep the file name and the ids as they are.
+name: Report a problem
+description: Something in Glimreef does not work as it should.
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Everything you write here is public.** Leave out your name, email address and other personal information, and look over screenshots before you add them. Write in whichever language suits you.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: And what did you expect to happen instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can it be made to happen again?
+      description: What you did just before, if you remember.
+  - type: input
+    id: version
+    attributes:
+      label: App version and build
+      description: Shown in the game under Settings > About.
+  - type: input
+    id: system
+    attributes:
+      label: iOS or iPadOS version
+  - type: input
+    id: device
+    attributes:
+      label: Device model
+  - type: input
+    id: language
+    attributes:
+      label: Language of the game
+  - type: input
+    id: settings
+    attributes:
+      label: Game settings revision
+      description: Shown in the game under Settings > About.

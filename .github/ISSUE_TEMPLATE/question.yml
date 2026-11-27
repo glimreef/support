@@ -1,0 +1,14 @@
+name: Ask a question or suggest an idea
+description: Anything about Glimreef that is not a fault.
+labels: ["question"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Everything you write here is public.** Leave out your name, email address and other personal information. Write in whichever language suits you.
+  - type: textarea
+    id: words
+    attributes:
+      label: Your question or idea
+    validations:
+      required: true
